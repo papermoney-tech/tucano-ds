@@ -1,5 +1,5 @@
 {
-    "name": "@papermoney/shared-tokens",
+    "name": "@papermoney/tokens",
     "version": "1.0.0",
     "description": "Shared design tokens for Vue and React Native Design Systems",
     "main": "index.js",

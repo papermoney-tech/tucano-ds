@@ -1,0 +1,7 @@
+{
+    "name": "@papermoney/translates",
+    "version": "1.0.0",
+    "description": "Shared translations for Vue and React Native",
+    "main": "index.js",
+    "license": "MIT"
+  }
