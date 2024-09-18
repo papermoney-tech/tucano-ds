@@ -421,6 +421,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@intlify/core-base@npm:10.0.1":
+  version: 10.0.1
+  resolution: "@intlify/core-base@npm:10.0.1"
+  dependencies:
+    "@intlify/message-compiler": "npm:10.0.1"
+    "@intlify/shared": "npm:10.0.1"
+  checksum: 10c0/55266e2760d915bb0dd6c00f1802781980ca9c74f29ef6f3eaa441eeb0236471a6ef63149ea9baea84dd7a352ab753c7d99b583cbd1e862fbf6f154092fc9030
+  languageName: node
+  linkType: hard
+
+"@intlify/message-compiler@npm:10.0.1":
+  version: 10.0.1
+  resolution: "@intlify/message-compiler@npm:10.0.1"
+  dependencies:
+    "@intlify/shared": "npm:10.0.1"
+    source-map-js: "npm:^1.0.2"
+  checksum: 10c0/8fc4880f8bb62df8d994aaa7e1b5ed559a4d1139fde685470dab4e69fbe5494173e35afcc1de7a84ff44597a0fd15c5d9c53111ae1d50a0398fda71f88312a4d
+  languageName: node
+  linkType: hard
+
+"@intlify/shared@npm:10.0.1":
+  version: 10.0.1
+  resolution: "@intlify/shared@npm:10.0.1"
+  checksum: 10c0/e9c35113c64e9efa5d87cb1f28273a2f306c9f586d4e0049ea16a659a37882a5182ee24564fcecb40f460c8531e9126327605f04414b86632b1c244f96ef513d
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -475,6 +502,29 @@ __metadata:
   checksum: 10c0/c37a5b4842bfdece3d14dfdb054f73fe15ed2d3da61b34ff76629fb5b1731647c49166fd2a8bf8b56fcfa51200382385ea8909a3cbecdad612310c114d3f6c99
   languageName: node
   linkType: hard
+
+"@papermoney/tucano@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@papermoney/tucano@workspace:."
+  dependencies:
+    "@chromatic-com/storybook": "npm:^1.9.0"
+    "@storybook/addon-essentials": "npm:^8.3.1"
+    "@storybook/addon-interactions": "npm:^8.3.1"
+    "@storybook/addon-links": "npm:^8.3.1"
+    "@storybook/addon-onboarding": "npm:^8.3.1"
+    "@storybook/blocks": "npm:^8.3.1"
+    "@storybook/test": "npm:^8.3.1"
+    "@storybook/vue3": "npm:^8.3.1"
+    "@storybook/vue3-vite": "npm:^8.3.1"
+    "@vitejs/plugin-vue": "npm:^5.1.2"
+    storybook: "npm:^8.3.1"
+    typescript: "npm:^5.5.3"
+    vite: "npm:^5.4.1"
+    vue: "npm:^3.4.37"
+    vue-i18n: "npm:^10.0.1"
+    vue-tsc: "npm:^2.0.29"
+  languageName: unknown
+  linkType: soft
 
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
@@ -1392,6 +1442,13 @@ __metadata:
     de-indent: "npm:^1.0.2"
     he: "npm:^1.2.0"
   checksum: 10c0/c76c3fad770b9a7da40b314116cc9da173da20e5fd68785c8ed8dd8a87d02f239545fa296e16552e040ec86b47bfb18283b39447b250c2e76e479bd6ae475bb3
+  languageName: node
+  linkType: hard
+
+"@vue/devtools-api@npm:^6.5.0":
+  version: 6.6.4
+  resolution: "@vue/devtools-api@npm:6.6.4"
+  checksum: 10c0/0a993ae23618166e1bee5a7c14cebd8312752b93c143cbdd48fb2d0f7ade070d0e6baf757cd920d4681fef8f9acf29515162160f38cc7410f9a684d2df21b6de
   languageName: node
   linkType: hard
 
@@ -4067,7 +4124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-js@npm:^1.2.0, source-map-js@npm:^1.2.1":
+"source-map-js@npm:^1.0.2, source-map-js@npm:^1.2.0, source-map-js@npm:^1.2.1":
   version: 1.2.1
   resolution: "source-map-js@npm:1.2.1"
   checksum: 10c0/7bda1fc4c197e3c6ff17de1b8b2c20e60af81b63a52cb32ec5a5d67a20a7d42651e2cb34ebe93833c5a2a084377e17455854fee3e21e7925c64a51b6a52b0faf
@@ -4283,28 +4340,6 @@ __metadata:
   checksum: 10c0/469e1d5bf1af585742128827000711efa61010b699cb040ab1800bcd3ccdd37f63ec30642c9e07c4439c1db6e46345582614275daca3e0f4abae29b0083f04a6
   languageName: node
   linkType: hard
-
-"tucano@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "tucano@workspace:."
-  dependencies:
-    "@chromatic-com/storybook": "npm:^1.9.0"
-    "@storybook/addon-essentials": "npm:^8.3.1"
-    "@storybook/addon-interactions": "npm:^8.3.1"
-    "@storybook/addon-links": "npm:^8.3.1"
-    "@storybook/addon-onboarding": "npm:^8.3.1"
-    "@storybook/blocks": "npm:^8.3.1"
-    "@storybook/test": "npm:^8.3.1"
-    "@storybook/vue3": "npm:^8.3.1"
-    "@storybook/vue3-vite": "npm:^8.3.1"
-    "@vitejs/plugin-vue": "npm:^5.1.2"
-    storybook: "npm:^8.3.1"
-    typescript: "npm:^5.5.3"
-    vite: "npm:^5.4.1"
-    vue: "npm:^3.4.37"
-    vue-tsc: "npm:^2.0.29"
-  languageName: unknown
-  linkType: soft
 
 "tween-functions@npm:^1.2.0":
   version: 1.2.0
@@ -4577,6 +4612,19 @@ __metadata:
   peerDependencies:
     vue: ">=2"
   checksum: 10c0/c992cc5f34b0666f266850fd1a0c48dc118b4ca8a3b31ec2a42bd3ca8c02d9c654a1b39a27059bdeeef9de5f8730ead648f2eee31f66f70aec78105e908ce08c
+  languageName: node
+  linkType: hard
+
+"vue-i18n@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "vue-i18n@npm:10.0.1"
+  dependencies:
+    "@intlify/core-base": "npm:10.0.1"
+    "@intlify/shared": "npm:10.0.1"
+    "@vue/devtools-api": "npm:^6.5.0"
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 10c0/4953ad97307f1bdbaf012c24570d9d06f8b5dd4190d8d23fdfdee6c814a6abfa0640af78aaf60faa85adcb298b3a95151624f1d846b522fb9a426ad084fa57b1
   languageName: node
   linkType: hard
 
