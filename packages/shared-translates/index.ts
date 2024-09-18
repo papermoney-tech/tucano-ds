@@ -1,5 +1,3 @@
-// packages/shared-translates/index.js
-
 import en from './en.json';
 import ptBr from './pt-br.json';
 import es from './es.json';
