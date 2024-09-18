@@ -1,0 +1,8 @@
+{
+    "name": "@papermoney/shared-tokens",
+    "version": "1.0.0",
+    "description": "Shared design tokens for Vue and React Native Design Systems",
+    "main": "index.js",
+    "license": "MIT",
+    "private": false
+  }
